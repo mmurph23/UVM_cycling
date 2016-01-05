@@ -1,0 +1,49 @@
+doctype html
+html(lang="en")
+    head
+        title #{title} - My Site
+        link(rel="stylesheet", href="/stylesheets/style.css")
+        link(rel="stylesheet" href="/stylesheets/stylesheet.css" type="text/css" charset="utf-8")
+        script(src="//code.jquery.com/jquery-1.11.3.min.js")
+        script(src="//code.jquery.com/jquery-migrate-1.2.1.min.js")
+        script(src="../js/UVM_index.js")
+    body
+        .nav
+            .burger-wrap
+                    h2 WIN THE
+                    span(id="burger-1")
+                    span(id="burger-2")
+                    span(id="burger-3")
+                    ul(id="mobile-nav")
+                        li
+                            button(id="home")
+                                HOME
+                        li
+                            button(id="about")
+                                ABOUT
+                        li
+                            button(class="roster")
+                                ROSTER
+                        li
+                            button(id="store")
+                                STORE
+                    h2 BIKE
+            .nav-content
+                h1 UVM CYCLING
+                
+                
+        .container-wrap         
+            .container
+                .main-wrap
+                    .main-content
+                        block content
+            block secondary
+        footer
+            .foot-nav
+                button(class="roster" id="foot-r") 
+                    h2  ROSTER
+                    
+                button(class="store" id="foot-s") 
+                    h2  STORE
+                
+            .sponsors

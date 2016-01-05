@@ -1,0 +1,184 @@
+/*
+ * Grab a custom font from Google
+ */
+@import url("http://fonts.googleapis.com/css?family=Quicksand");
+/*
+ * Store the main color and
+ * background color as variables
+ */
+body {
+  font-family: 'Georgia';
+  background-color: #0c0b0b;
+  margin: 0px;
+}
+
+a{
+    text-decoration:none;
+}
+.nav {
+  height: 100px;
+  max-width: 100vw;
+  padding: 20px;
+}
+.nav .nav-content h2 {
+  color: #416932;
+  margin: 0px;
+}
+.nav .nav-content ul {
+  display: none;
+}
+.main-content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+}
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  border: 1px solid #ebc657;
+  color: #ebc657;
+  background: inherit;
+}
+button:hover {
+  background-color: #f1d47e;
+  border: 2px solid #f1d47e;
+}
+button:hover h2 {
+  color: #0c0b0b;
+}
+.container {
+  height: 350px;
+  max-width: 100vw;
+  background-image: url("finish.jpg");
+  background-position-y: 50%;
+  background-size: 110%;
+  transition: transform 1.5s;
+}
+.main-wrap {
+  max-width: 100vw;
+  background: rgba(12,11,11,0.5);
+  height: 100%;
+  padding-top: 125px;
+  max-height: 225px;
+}
+.main-content img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 50px;
+}
+.seasons {
+  margin: 0px;
+  padding: 0px;
+  transition: transform 1.5s;
+}
+ul#seasons {
+  margin: 0px;
+  padding: 0px;
+}
+ul#seasons li {
+  display: inline-block;
+  height: 350px;
+  width: 421px;
+  background-size: 100%;
+}
+li#mountain {
+  background-image: url("libbyMTB.png");
+}
+.mountain-wrap {
+  height: 215px;
+  background-color: rgba(65,105,50,0.5);
+  padding-top: 135px;
+}
+li#cross {
+  background-image: url("cross.png");
+}
+.cross-wrap {
+  height: 215px;
+  background-color: rgba(12,11,11,0.5);
+  padding-top: 135px;
+}
+li#road {
+  background-image: url("road.png");
+}
+.road-wrap {
+  height: 215px;
+  background-color: rgba(65,105,50,0.5);
+  padding-top: 135px;
+}
+.container-wrap {
+  height: 350px;
+  overflow: hidden;
+}
+footer {
+  padding-top: 50px;
+}
+footer .foot-nav {
+  max-width: 355px;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+  display: block;
+}
+footer .foot-nav button {
+  display: inline-block;
+}
+footer .foot-nav #foot-r {
+  margin-right: 25px;
+  height: 62.1875px;
+  color: #ebc657;
+}
+footer .foot-nav #foot-s {
+  margin-left: 25px;
+  height: 62.1875px;
+  color: #ebc657;
+}
+
+#foot-r {margin-right:25px;}
+#foot-s {margin-left:25px;}
+
+button:focus {
+    outline: none;
+}
+
+.nav-content span {
+    background-color: #ebc657;
+    height: 5px;
+    width: 35px;
+    display:block;
+    margin:5px;
+    border-radius:5px;
+}
+
+/* Mountain Style*/
+
+#mtb-body .container {
+
+  background-image: url("mtbDH.png");
+}
+
+#mtb-body .main-wrap {
+  background: rgba(12,11,11,0.5);
+}
+
+/*Cross Style*/
+#cross-body .container {
+
+  background-image: url("libbyRun.png");
+}
+
+#cross-body .main-wrap {
+  background: rgba(12,11,11,0.5);
+}
+
+/*Road Style*/
+#road-body .container {
+
+  background-image: url("samRoad.png");
+}
+
+#road-body .main-wrap {
+  background: rgba(12,11,11,0.5);
+}

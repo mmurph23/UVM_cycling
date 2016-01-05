@@ -1,0 +1,32 @@
+{
+  "name": "uvm_cycling",
+  "version": "1.0.0",
+  "description": "UVM Cycling Website",
+  "main": "index.js",
+  "private":"true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmurph23/UVM_cycling.git"
+  },
+  "keywords": [
+    "UVM",
+    "Cycling"
+  ],
+  "author": "Patrick Murphy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmurph23/UVM_cycling/issues"
+  },
+  "homepage": "https://github.com/mmurph23/UVM_cycling#readme",
+  "dependencies": {
+    "express":"4.13.3",
+    "jade":"1.11.0",
+    "stylus":"0.53.0",
+    "nib":"1.1.0",
+    "morgan":"*"
+  }
+}
+  

@@ -1,0 +1,302 @@
+
+/*
+ * Grab a custom font from Google
+ */
+@import url('http://fonts.googleapis.com/css?family=Quicksand')
+
+
+
+/*
+ * Store the main color and
+ * background color as variables
+ */
+ 
+prime-black = #0C0B0B
+prime-yellow = #EBC657
+prime-green = #416932
+
+
+
+body
+  font-family 'Georgia'
+  background-color prime-black
+  margin 0px
+  overflow hidden
+ 
+h2
+  font-family 'metal_lordregular'
+
+
+.nav 
+  height 100px
+  max-width 100vw
+  padding 20px
+  .nav-content
+    display: inline-block;
+    max-width: 400px;
+    height: 100px;
+    float: right;
+    margin-right: 20px;
+    right: auto;
+    vertical-align: top;
+    margin-top: -40px;  
+    h1 
+      display: inline-block;
+      width: 345px;
+      color: #ebc657;
+      font-family: "metal_lordregular";
+      font-size: 60px;
+      float: none;
+      margin-left: auto;
+      margin-right: auto;
+
+.burger-wrap 
+    display: inline-block;
+    max-width: 150px;
+    float: none;
+    margin-right: auto;
+    h2
+        color prime-green
+        margin 0px
+    ul
+        display none
+    span 
+        background-color #ebc657
+        height 5px
+        width 35px
+        display block
+        margin 5px
+        border-radius 5px
+
+
+.main-content 
+  margin-left auto
+  margin-right auto
+  width 150px
+
+
+button 
+  display block
+  margin-left auto
+  margin-right auto
+  width 150px
+  border 1px solid #F1D47E
+  color #F1D47E
+  background inherit
+
+button:hover 
+    background-color #F1D47E
+    border 1px solid #F1D47E
+    h2
+        color rgb(12,11,11)
+
+button:focus
+    outline none
+    
+.container 
+  height 350px
+  max-width 100vw
+  background-image url("../images/finish.jpg")
+  background-position-y 50%
+  background-size 110%
+  transition transform 1.5s
+  
+.main-wrap 
+  max-width 100vw
+  background rgba(12,11,11,.5)
+  height 100%
+  padding-top 125px
+  max-height 225px
+
+
+.main-content img 
+    margin-left auto
+    margin-right auto
+    display block
+    padding-top 50px
+    
+    
+.seasons
+    margin 0px
+    padding 0px
+    transition transform 1.5s
+    
+
+.mountain 
+    background-image url("../images/libbyMTB.png")
+    display inline-block
+    height 350px
+    background-size 100%
+    margin 0px
+    padding 0px
+    
+
+
+.mountain-wrap 
+    height 215px
+    background-color rgba(65,105,50,.5)
+    padding-top 135px
+    
+.cross
+    background-image url("../images/cross.png")
+    display inline-block
+    height 350px
+    background-size 100%
+    margin 0px
+    padding 0px
+    left 33.3333333333vw
+
+
+.cross-wrap 
+    height 215px
+    background-color rgba(12,11,11,.5)
+    padding-top 135px
+    
+.road 
+    background-image url("../images/road.png")
+    display inline-block
+    background-size 100%
+    height 350px
+    margin 0px
+    padding 0px
+    left 66.6666666666vw
+
+
+.road-wrap 
+    height 215px
+    background-color rgba(65,105,50,.5)
+    padding-top 135px
+
+
+
+.mtn-back 
+    transform rotateY(-90deg) translateZ(-16.666666667vw)
+    img 
+        width 100%
+        height 350px
+
+    
+.mtn-back-filter 
+    background-color rgba(12,11,11,.5)
+    position absolute
+    width 100%
+    height 350px
+    z-index 6
+    bottom 0px
+    button
+        img 
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            padding-top: 50px;
+
+.cross-back
+    left 33.3333333333vw
+    transform rotateY(-90deg) translateZ(-16.666666667vw)
+    img 
+        width 100%
+        height 350px
+
+    
+.cross-back-filter 
+    background-color rgba(12,11,11,.5)
+    position absolute
+    width 100%
+    height 350px
+    z-index 6
+    bottom 0px
+    button
+        img 
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            padding-top: 50px;
+    
+.road-back
+    left 66.6666666666vw
+    transform rotateY(-90deg) translateZ(-16.666666667vw)
+    img 
+        width 100%
+        height 350px
+
+    
+.road-back-filter 
+    background-color rgba(12,11,11,.5)
+    position absolute
+    width 100%
+    height 350px
+    z-index 6
+    bottom 0px
+    button
+        img 
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            padding-top: 50px;
+
+button#road-back-button 
+    margin-top 132px
+button#mtb-back-button 
+    margin-top 132px
+button#cross-back-button 
+    margin-top 132px
+    
+img.btn-arrow 
+    display block
+    width 57px
+    height 35px
+    margin-top 30px
+    margin-left auto
+    margin-right auto
+    float none
+            
+.container-wrap 
+    height 350px
+    overflow hidden
+
+.face
+    position absolute
+    z-index 2
+    display inline-block
+    height 350px
+    width 33.3333333333vw
+    margin 0px
+    padding 0px
+    overflow hidden
+
+.front-to-side
+    transition-duration 1.5s
+    transform translatez(-16.666666667vw) rotateY(90deg)
+
+.back-to-front 
+    transition-duration 1.5s
+    transform rotateY(0deg)
+    z-index 100000000
+
+
+
+
+footer
+    position absolute
+    z-index 3
+    padding-top 50px
+    padding-bottom 32px
+    bottom 0
+    width 100vw
+    background-color #0c0b0b
+    .foot-nav
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        display: block;
+        button
+            display inline-block
+        #foot-r 
+            margin-right 25px
+            height 62.1875px
+            color prime-yellow
+        #foot-s 
+            margin-left 25px
+            height 62.1875px
+            color prime-yellow
